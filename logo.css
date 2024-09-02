@@ -1,0 +1,239 @@
+body{
+    background-color: #242435;
+}
+.PIEZO{
+    display: flex;
+    /* margin-top: 380PX ;
+    margin-left: 40%; */
+}
+.P{
+    padding: 5px;
+    width: 25px;
+    height: 25PX;
+    color: black;
+    font-size: larger;
+    background-color: rgb(59, 231, 180);
+    border-radius: 3px;
+    margin-right: 10PX;
+    text-align: center;
+    animation-name: P;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 380PX ;
+    margin-left: 40%;
+    
+}
+@keyframes P{
+    10%{
+        margin-top: 340px;
+        margin-left: 40%;
+        transform: translateX(0PX);
+
+    }
+    20%{
+        transform: translateX(112PX);
+        margin-top: 340px;
+    }
+    30%{
+        margin-top: 380PX;
+        transform: translateX(112PX);
+
+    }
+  
+    80%{
+        margin-top: 380PX;
+        transform: translateX(112PX);
+       
+
+    }
+
+}
+.I{
+    padding: 5px;
+    height: 25PX;
+    width: 25px;
+    color: black;
+    font-sizE: larger;
+    background-color: rgb(59, 231, 180);
+    border-radius: 3px;
+    margin-right: 10PX;
+    text-align: center;
+    margin-top: 380PX ;
+    animation-name: I;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes I{
+    20%{
+        transform: translateX(-18PX);
+        margin-top: 380px;
+    }
+    30%{
+        transform: translateX(-18PX);
+        margin-top: 380px;
+
+    }
+   
+    40%{
+        margin-top: 300PX;
+        transform: translateX(-18PX);
+    }
+    50%{
+        transform: translateX(142px);
+        margin-top: 300PX;
+    }
+    60%{
+        transform: translateX(142px);
+        margin-top: 460PX;
+    }
+    70%{
+        transform: translateX(-15px);
+        margin-top: 460PX;
+    }
+    80%{
+        transform: translateX(-15px);
+        margin-top: 300PX;
+    }
+}
+.E{
+    padding: 5px;
+    height: 25PX;
+    width: 25px;
+    color: black;
+    font-size: larger;
+    background-color: rgb(59, 231, 180);
+    border-radius: 3px;
+    margin-right: 10PX;
+    text-align: center;
+    margin-top: 380PX ;
+    animation-name: E;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes E{
+    20%{
+        transform: translateX(-18PX);
+        margin-top: 380px;
+    }
+    30%{
+        transform: translateX(-18PX);
+        margin-top: 380px;
+
+    }
+    
+    40%{
+        transform: translateX(-63px);
+        margin-top: 460PX;
+    }
+    50%{
+        transform: translateX(-63PX); 
+        margin-top: 300px;
+    }
+    60%{
+        margin-top: 300PX;
+        transform: translateX(97PX);
+    }
+    70%{
+        margin-top: 460PX;
+        transform: translateX(97PX);
+    }
+    80%{
+        margin-top: 460PX;
+        transform: translateX(-63PX);
+    }
+}
+.Z{
+    padding: 5px;
+    height: 25PX;
+    width: 25px;
+    color: black;
+    font-size: larger;
+    background-color: rgb(59, 231, 180);
+    border-radius: 3px;
+    margin-right: 10PX;
+    text-align: center;
+    margin-top: 380PX ;
+    animation-name: Z;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Z{
+    20%{
+        transform: translateX(18PX);
+        margin-top: 380px;
+    }
+    30%{
+        transform: translateX(18PX);
+        margin-top: 380px;
+
+    }
+    40%{
+        margin-top: 300PX;
+        transform: translateX(63PX);
+    }
+    50%{
+        margin-top: 460PX;
+        transform: translateX(63PX);
+    }
+    60%{
+        margin-top: 460PX;
+        transform: translateX(-97PX);
+    }
+    70%{
+        margin-top: 300PX;
+        transform: translateX(-97PX);
+    }
+    80%{
+        margin-top: 300PX;
+        transform: translateX(63PX);
+    }
+}
+.O{
+    padding: 5px;
+    height: 25PX;
+    width: 25px;
+    color: black;
+    font-size: larger;
+    background-color: rgb(59, 231, 180);
+    border-radius: 3px;
+    margin-right: 10PX;
+    text-align: center;
+    margin-top: 380PX ;
+    animation-name: O;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes O{
+    20%{
+        transform: translateX(18PX);
+        margin-top: 380px;
+    }
+    30%{
+        transform: translateX(18PX);
+        margin-top: 380px;
+
+    }
+    40%{
+        margin-top: 460PX;
+        transform: translateX(18PX);
+    }
+    50%{
+        transform: translateX(-130px);
+        margin-top: 460PX;
+    }
+    60%{
+        margin-top: 300PX;
+        transform: translateX(-142px);
+    }
+    70%{
+        margin-top: 300PX;
+        transform: translateX(18PX);
+    }
+    80%{
+        margin-top: 460PX;
+        transform: translateX(18PX); 
+    }
+}
