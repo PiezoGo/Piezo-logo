@@ -3,8 +3,8 @@ body{
 }
 .PIEZO{
     display: flex;
-    /* margin-top: 380PX ;
-    margin-left: 40%; */
+    width: 100%;
+    height: 100vh;
 }
 .P{
     padding: 5px;
@@ -17,7 +17,7 @@ body{
     margin-right: 10PX;
     text-align: center;
     animation-name: P;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     margin-top: 380PX ;
     margin-left: 40%;
@@ -60,7 +60,7 @@ body{
     text-align: center;
     margin-top: 380PX ;
     animation-name: I;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 @keyframes I{
@@ -107,7 +107,7 @@ body{
     text-align: center;
     margin-top: 380PX ;
     animation-name: E;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 
 }
@@ -155,7 +155,7 @@ body{
     text-align: center;
     margin-top: 380PX ;
     animation-name: Z;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 
 }
@@ -202,7 +202,7 @@ body{
     text-align: center;
     margin-top: 380PX ;
     animation-name: O;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 
 }
